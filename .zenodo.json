@@ -3,8 +3,12 @@
   "upload_type": "software",
   "description": "<p>Research materials and analysis code from WindACT, a project at the Galway Sound Lab, University of Galway. Funded by the Sustainable Energy Authority of Ireland (SEAI) under RD&amp;D Grant 25/RDD/1354.</p>",
   "creators": [
-    { "name": "King, Eoin", "affiliation": "University of Galway" },
-    { "name": "O'Hora, Denis", "affiliation": "University of Galway" }
+    { "name": "King, Eoin", "affiliation": "University of Galway", "orcid": "0000-0002-2846-3109" },
+    { "name": "O'Hora, Denis", "affiliation": "University of Galway, "orcid": "0000-0003-3776-6782" },
+    { "name": "Kennedy, Ronan", "affiliation": "University of Galway", "orcid": "0000-0002-6319-1903" },
+    { "name": "Connolly, Ursula", "affiliation": "University of Galway", "orcid": "0009-0002-8620-1155" },
+    { "name": "Dillon O'Rourke, Ceolla", "affiliation": "University of Galway" },
+    { "name": "Yang, Lan", "affiliation": "University of Galway", "orcid": "0000-0002-7905-1438" }
   ],
   "keywords": ["wind turbine noise", "annoyance", "nuisance law", "acoustics", "psychoacoustics", "open science"],
   "license": "MIT",
