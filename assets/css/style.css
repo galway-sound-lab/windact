@@ -1,0 +1,45 @@
+:root {
+  --claret: #A70050;
+  --claret-dark: #84003C;
+  --ink: #1f1f24;
+  --muted: #5d5d66;
+  --line: #e6e1e4;
+  --bg-soft: #faf6f8;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; color: var(--ink); background: #fff;
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.wrap { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+a { color: var(--claret); }
+a:hover { color: var(--claret-dark); }
+
+.site-header { background: var(--claret); color: #fff; }
+.site-header .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-top: 14px; padding-bottom: 14px; }
+.brand { color: #fff; text-decoration: none; font-weight: 700; font-size: 1.4rem; letter-spacing: .5px; }
+.brand img { height: 44px; display: block; }
+nav a { color: #fff; text-decoration: none; margin-left: 18px; font-size: .95rem; opacity: .9; }
+nav a:hover, nav a.active { opacity: 1; border-bottom: 2px solid #fff; }
+
+main { padding-top: 28px; padding-bottom: 48px; min-height: 60vh; }
+h1, h2, h3 { line-height: 1.25; }
+h1 { color: var(--claret-dark); }
+h2 { margin-top: 2rem; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+
+.lead { font-size: 1.15rem; color: var(--muted); }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin: 20px 0; }
+.card { border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; background: var(--bg-soft); }
+.card h3 { margin: 0 0 6px; font-size: 1.05rem; color: var(--claret-dark); }
+.card p { margin: 0; font-size: .95rem; color: var(--muted); }
+
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { border-bottom: 1px solid var(--line); padding: 8px 6px; text-align: left; vertical-align: top; }
+th { color: var(--muted); font-weight: 600; }
+.todo { background: #fff4d6; padding: 0 4px; border-radius: 3px; }
+
+.site-footer { border-top: 4px solid var(--claret); background: var(--bg-soft); padding: 22px 0; font-size: .9rem; color: var(--muted); }
+.cobrand { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.cobrand img { height: 48px; }
+.small { font-size: .82rem; }
+@media (max-width: 600px) { nav a { margin: 0 12px 0 0; } }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <!-- Replace with the final logo: <img src="{{ '/assets/img/windact-logo.svg' | relative_url }}" alt="WindACT"> -->
+        <span class="brand-name">WindACT</span>
+      </a>
+      <nav>
+        {% for item in site.nav %}
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {% if page.title and page.url != "/" %}<h1>{{ page.title }}</h1>{% endif %}
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <!-- SEAI co-branding strip: keep it separate from the project logo (Grant Agreement s.19). -->
+      <div class="cobrand">
+        <!-- <img src="{{ '/assets/img/seai.svg' | relative_url }}" alt="SEAI"> -->
+        <!-- <img src="{{ '/assets/img/uog.svg' | relative_url }}" alt="University of Galway"> -->
+        <p>Funded by the Sustainable Energy Authority of Ireland (SEAI) under the {{ site.grant }}.
+           Galway Sound Lab, School of Engineering, University of Galway.</p>
+      </div>
+      <p class="small">Text licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
+        Code licensed MIT · Contact: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+    </div>
+  </footer>
+</body>
+</html>
