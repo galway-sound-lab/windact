@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these materials or code, please cite them as below."
+title: "WindACT: wind turbine noise annoyance and nuisance in Ireland — materials and code"
+type: software
+authors:
+  - family-names: King
+    given-names: Eoin
+    affiliation: University of Galway
+  - family-names: O'Hora
+    given-names: Denis
+    affiliation: University of Galway
+  # TODO: add the other team members (and ORCID iDs, e.g. orcid: "https://orcid.org/0000-0000-0000-0000")
+license: MIT
+repository-code: "https://github.com/galway-sound-lab/windact"
+url: "https://galway-sound-lab.github.io/windact"
+keywords:
+  - wind turbine noise
+  - annoyance
+  - nuisance law
+  - acoustics
+  - psychoacoustics
+  - open science

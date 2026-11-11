@@ -1,0 +1,41 @@
+# --- Data protection: never commit raw or personal data ---
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.WAV
+*.zip
+*.7z
+*.sav
+*.xlsx
+*.xls
+*.csv
+!data/**/*.example.csv
+*.shp
+*.gpkg
+*.kml
+*.kmz
+raw/
+private/
+personal/
+consent/
+
+# --- Jekyll / OS / editors ---
+_site/
+.jekyll-cache/
+.sass-cache/
+Gemfile.lock
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Python / R ---
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/

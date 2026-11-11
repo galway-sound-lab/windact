@@ -1,0 +1,33 @@
+title: WindACT
+description: Wind turbine noise annoyance and nuisance in Ireland — an SEAI-funded research project at the University of Galway.
+# If the repo is github.com/<owner>/windact, the site lives at https://<owner>.github.io/windact
+baseurl: "/windact"
+url: "https://galway-sound-lab.github.io"
+
+grant: "RD&D Grant 25/RDD/1354"
+contact_email: "TODO@universityofgalway.ie"
+
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Outputs
+    url: /outputs/
+  - title: Materials & Code
+    url: /materials/
+  - title: Data
+    url: /data/
+  - title: Community
+    url: /community/
+
+markdown: kramdown
+exclude:
+  - SETUP.md
+  - README.md
+  - CITATION.cff
+  - LICENSE
+  - LICENSE-docs.md
+  - code/
+  - data/
+  - materials/
