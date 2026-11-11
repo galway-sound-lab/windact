@@ -22,6 +22,4 @@ title: Home
 
 We share our materials, code and anonymised data openly. Each release of this repository is archived on Zenodo with a permanent DOI. See [Materials & Code]({{ '/materials/' | relative_url }}) and [Data]({{ '/data/' | relative_url }}).
 
-<!-- After the first Zenodo release, paste the DOI badge here, e.g.
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24136139.svg)](https://doi.org/10.5281/zenodo.24136139)
