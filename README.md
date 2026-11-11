@@ -3,7 +3,7 @@
 **Wind turbine noise annoyance and nuisance in Ireland.** Galway Sound Lab, University of Galway. Funded by SEAI (RD&D Grant 25/RDD/1354).
 
 🌐 Project website: https://galway-sound-lab.github.io/windact
-📦 Archived releases: <!-- Zenodo DOI badge goes here after the first release -->
+📦 Archived releases: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24136139.svg)](https://doi.org/10.5281/zenodo.24136139)
 
 ## Repository layout
 
