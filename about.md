@@ -22,16 +22,19 @@ WindACT is a 36-month project (2026–2029) funded by the Sustainable Energy Aut
 
 | Name | Role |
 |---|---|
-| Dr Eoin King | Principal Investigator (acoustics) |
-| Dr Denis O'Hora | Co-Principal Investigator (psychology) |
-| <span class="todo">TODO</span> | Co-Principal Investigator (law) |
-| <span class="todo">TODO</span> | Postdoctoral researchers / research assistants |
+| Eoin King | Principal Investigator (acoustics) |
+| Denis O'Hora | Co-Principal Investigator (psychology) |
+| Ronan Kennedy | Co-Principal Investigator (law) |
+| Ursula Connolly | Co-Principal Investigator (law) |
+| Lan Yang | Postdoctoral Researcher (acoustics) |
+| <span class="todo">TODO</span> | Postdoctoral Researcher (psychology) |
+| Ceolla Dillon O'Rourke | Research Assistant (psychology) |
 
 ## Steering Group
 
-An independent Steering Group of acoustic, legal, industry, public-sector and community members advises the project. <span class="todo">TODO: add names once agreed.</span>
+An independent Steering Group advises the project. Its members bring expertise in acoustic consultancy, law, the wind energy industry and the public sector. A community representative seat will also be filled.
 
 ## Related work
 
-- [IEA Wind TCP Task 64 (RESONATE)](https://iea-wind.org/) — international collaboration on wind turbine noise and human response. <span class="todo">TODO: replace with the Task page link.</span>
+- [IEA Wind TCP Task 64 (RESONATE)](https://iea-wind.org/annual-report-2025-task-64/) — international collaboration on wind turbine noise and human response.
 - [WindSense](https://osf.io/qp8rz/) — earlier Galway Sound Lab project.

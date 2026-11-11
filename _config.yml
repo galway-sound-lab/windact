@@ -5,7 +5,7 @@ baseurl: "/windact"
 url: "https://galway-sound-lab.github.io"
 
 grant: "RD&D Grant 25/RDD/1354"
-contact_email: "TODO@universityofgalway.ie"
+contact_email: "eoin.king@universityofgalway.ie"
 
 nav:
   - title: Home

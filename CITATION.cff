@@ -6,10 +6,27 @@ authors:
   - family-names: King
     given-names: Eoin
     affiliation: University of Galway
+    orcid: "https://orcid.org/0000-0002-2846-3109"
   - family-names: O'Hora
     given-names: Denis
     affiliation: University of Galway
-  # TODO: add the other team members (and ORCID iDs, e.g. orcid: "https://orcid.org/0000-0000-0000-0000")
+    orcid: "https://orcid.org/0000-0003-3776-6782"
+  - family-names: Kennedy
+    given-names: Ronan
+    affiliation: University of Galway
+    orcid: "https://orcid.org/0000-0002-6319-1903"
+  - family-names: Connolly
+    given-names: Ursula
+    affiliation: University of Galway
+    orcid: "https://orcid.org/0009-0002-8620-1155"
+  - family-names: Dillon O'Rourke
+    given-names: Ceolla
+    affiliation: University of Galway
+  - family-names: Yang
+    given-names: Lan
+    affiliation: University of Galway
+    orcid: "https://orcid.org/0000-0002-7905-1438"
+doi: 10.5281/zenodo.24136139
 license: MIT
 repository-code: "https://github.com/galway-sound-lab/windact"
 url: "https://galway-sound-lab.github.io/windact"
