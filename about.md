@@ -38,7 +38,7 @@ An independent Steering Group advises the project. Its members bring expertise i
 
 | Partner | Role |
 |---|---|
-| [AstonECO]([LINK](https://astoneco.com/)) | Community engagement and resident survey fieldwork (WP3) |
+| [AstonECO](https://astoneco.com/)) | Community engagement and resident survey fieldwork (WP3) |
 
 ## Related work
 
