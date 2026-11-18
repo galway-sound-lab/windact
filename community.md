@@ -10,6 +10,10 @@ We want to hear from people who live near wind farms, as well as from industry, 
 
 We will hold online briefings on our findings for communities and stakeholders. Dates will be posted here.
 
+## Who might contact you
+
+Our fieldwork partner, [AstonECO](https://astoneco.com/), may visit homes near the study sites to invite residents to take part in a short survey. Their staff carry identification and a letter from the University of Galway. If you want to confirm that a visit is genuine, email us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
+
 ## Frequently asked questions
 
 **Who funds the project?**
