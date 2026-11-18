@@ -34,6 +34,12 @@ WindACT is a 36-month project (2026–2029) funded by the Sustainable Energy Aut
 
 An independent Steering Group advises the project. Its members bring expertise in acoustic consultancy, law, the wind energy industry and the public sector. A community representative seat will also be filled.
 
+## Partners
+
+| Partner | Role |
+|---|---|
+| [AstonECO](LINK) | Community engagement and resident survey fieldwork (WP3) |
+
 ## Related work
 
 - [IEA Wind TCP Task 64 (RESONATE)](https://iea-wind.org/annual-report-2025-task-64/) — international collaboration on wind turbine noise and human response.
