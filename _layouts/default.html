@@ -37,8 +37,14 @@
            Galway Sound Lab, School of Engineering, University of Galway.</p>
       </div>
       <p class="small">Text licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
-        Code licensed MIT · Contact: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+        Code licensed MIT · Contact: {% include email.html text="email us" %}</p>
     </div>
   </footer>
+  <script>
+    document.querySelectorAll('.js-email').forEach(function (a) {
+      var addr = a.dataset.u + '@' + a.dataset.d;
+      a.href = 'mailto:' + addr;
+    });
+  </script>
 </body>
 </html>
